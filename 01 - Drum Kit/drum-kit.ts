@@ -18,7 +18,7 @@ function handleKeyDown(e: KeyboardEvent): any {
   key.classList.add("playing");
 }
 
-function removeTransition(e: TransitionEvent): any {
+function removeTransition(e: TransitionEvent) {
   //skip the function if the element doesn't have a transform property
   if (e.propertyName !== "transform") {
     return;

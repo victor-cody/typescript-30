@@ -3,7 +3,7 @@
     "declarationMap": false,
     "target": "esnext",
     "module": "commonjs",
-    "declaration": true,
+    "declaration": false,
     "outDir": "dist",
     "strict": true,
     "allowSyntheticDefaultImports": true,
